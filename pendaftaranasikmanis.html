@@ -4,122 +4,139 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
     <title>ASIK MANIS | APLIKASI SERTIFIKASI KONSTRUKSI MANIS</title>
 </head>
-<body>
-    <div class="main">
+<header id="header">
+    <h1>ASIKMANIS</h1>
+      <span class="fa fa-bars fa-xl"></span>
+    </button>
+    <nav class="nav" id="navbar">
+      <ul>
+        <li>
+          <a href="" class="btn btn-light active"> Home</a>
+        </li>
+        <li>
+          <a href="" class="btn login"> Login</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+<body class="bg-light">
+    <div class="main container">
         <div class="register">
-            <h1>Register ASIK MANIS</h1>
-            <p>APLIKASI SERTIFIKASI KONSTRUKSI MANIS</p>
+            <h1 class="fs-1">PENDAFTARAN ASIK MANIS</h1>
+            <p class="fs-6">APLIKASI SERTIFIKASI KONSTRUKSI MANIS</p>
             <div class="register-box">
                 <form action="" method="post">
                     <div class="jabatan">
                         <label for="jabatan-kerja">Jabatan Kerja :</label>
-                        <input type="text" name="jabatan-kerja" id="jabatan-kerja">
+                        <input type="text" name="jabatan-kerja" id="jabatan-kerja" placeholder="Masukkan Jabatan Kerja" class="form-control">
                     </div>
                     <div class="nama">
                         <label for="nama">Nama :</label>
-                        <input type="text" name="nama" id="nama">
+                        <input type="text" name="nama" id="nama" placeholder="Masukkan Nama" class="form-control">
                     </div>
                     <div class="alamat">
                         <label for="alamat">Alamat & Kode Pos :</label>
-                        <input type="text" name="alamat" id="alamat">
+                        <input type="text" name="alamat" id="alamat" placeholder="Masukkan Alamat" class="form-control">
                     </div>
                     <div class="jenjang">
-                        <h1>Jenjang :</h1>
+                        <label for="">Jenjang :</label>
                         <p><input type="radio" name="jenjang" value="jenjang4">Jenjang 4</p>
                         <p><input type="radio" name="jenjang" value="jenjang4">Jenjang 5</p>
                         <p><input type="radio" name="jenjang" value="jenjang4">Jenjang 6</p>
                     </div>
                     <div>
-                        <h1>Pendidikan :</h1>
+                        <label for="">Pendidikan :</label>
                         <div class="jenjang4">
-                            <p><input type="radio" name="jenjang4" value="sma">SMA</p>
-                            <p><input type="radio" name="jenjang4" value="smk">SMK</p>
-                            <p><input type="radio" name="jenjang4" value="d1-smkplus">D1 / SMK PLUS</p>
+                            <p><input type="radio" name="jenjang4" value="sma" class="form-check-input">SMA</p>
+                            <p><input type="radio" name="jenjang4" value="smk" class="form-check-input">SMK</p>
+                            <p><input type="radio" name="jenjang4" value="d1-smkplus" class="form-check-input">D1 / SMK PLUS</p>
                         </div>
                         <div class="d2">
-                            <p><input type="radio" name="d2" value="d2">D2</p>
+                            <p><input type="radio" name="d2" value="d2" class="form-check-input">D2</p>
                         </div>
                         <div class="jenjang5">
-                            <p><input type="radio" name="jenjang5" value="sma">SMA</p>
-                            <p><input type="radio" name="jenjang5" value="smk">SMK</p>
-                            <p><input type="radio" name="jenjang5" value="d1-smkplus">D1 / SMK PLUS</p>
+                            <p><input type="radio" name="jenjang5" value="sma" class="form-check-input">SMA</p>
+                            <p><input type="radio" name="jenjang5" value="smk" class="form-check-input">SMK</p>
+                            <p><input type="radio" name="jenjang5" value="d1-smkplus" class="form-check-input">D1 / SMK PLUS</p>
                         </div>
                         <div class="d3">
-                            <p><input type="radio" name="d3-minimal" value="d3-minimal">D3 MINIMAL</p>
+                            <p><input type="radio" name="d3-minimal" value="d3-minimal" class="form-check-input">D3 MINIMAL</p>
                         </div>
                         <div class="jenjang6">
-                            <p><input type="radio" name="jenjang6" value="d1-sipil">D1 (SIPIL)</p>
-                            <p><input type="radio" name="jenjang6" value="d2-sipil">D2 (SIPIL)</p>
-                            <p><input type="radio" name="jenjang6" value="d3-sipil">D3 (SIPIL)</p>
-                            <p><input type="radio" name="jenjang6" value="s1-umum">S1 UMUM</p>
-                            <p><input type="radio" name="jenjang6" value="s1-sipil">S1 (SIPIL) / S1 TERAPAN / D4 TERAPAN</p>
+                            <p><input type="radio" name="jenjang6" value="d1-sipil" class="form-check-input">D1 (SIPIL)</p>
+                            <p><input type="radio" name="jenjang6" value="d2-sipil" class="form-check-input">D2 (SIPIL)</p>
+                            <p><input type="radio" name="jenjang6" value="d3-sipil" class="form-check-input">D3 (SIPIL)</p>
+                            <p><input type="radio" name="jenjang6" value="s1-umum" class="form-check-input">S1 UMUM</p>
+                            <p><input type="radio" name="jenjang6" value="s1-sipil" class="form-check-input">S1 (SIPIL) / S1 TERAPAN / D4 TERAPAN</p>
                         </div>
                     <div class="pengalaman">
-                        <h1>Pengalaman :</h1>
-                        <p>Menggunakan Format PDF</p>
+                        <label for="">Pengalaman :</label>
+                        <p class="fs-6">Menggunakan Format PDF</p>
                             <div class="jenjang4-pengalaman">
-                                <h2>SMA MINIMAL 6 TAHUN</h2>
-                                <h2>SMK MINIMAL 4 TAHUN</h2>
-                                <h2>D1/SMK PLUS MINIMAL 2 TAHUN</h2>
-                                <h2>D2 MINIMAL 0 TAHUN</h2>
-                                <p><input type="file" accept="pdf" name="pengalaman"></p>
+                                <h2 class="fs-6">SMA MINIMAL 6 TAHUN</h2>
+                                <h2 class="fs-6">SMK MINIMAL 4 TAHUN</h2>
+                                <h2 class="fs-6">D1/SMK PLUS MINIMAL 2 TAHUN</h2>
+                                <h2 class="fs-6">D2 MINIMAL 0 TAHUN</h2>
+                                <p><input type="file" accept="pdf" name="pengalaman" class="form-control"></p>
                             </div>
                             <div class="jenjang5-pengalaman">
-                                <h2>SMA MINIMAL 12 TAHUN</h2>
-                                <h2>SMK MINIMAL 10 TAHUN</h2>
-                                <h2>D1/SMK PLUS MINIMAL 8 TAHUN</h2>
-                                <h2>D2 MINIMAL 4 TAHUN</h2>
-                                <h2>D3 MINIMAL 0 TAHUN</h2>
-                                <p><input type="file" accept="pdf" name="pengalaman"></p>
+                                <h2 class="fs-6">SMA MINIMAL 12 TAHUN</h2>
+                                <h2 class="fs-6">SMK MINIMAL 10 TAHUN</h2>
+                                <h2 class="fs-6">D1/SMK PLUS MINIMAL 8 TAHUN</h2>
+                                <h2 class="fs-6">D2 MINIMAL 4 TAHUN</h2>
+                                <h2 class="fs-6">D3 MINIMAL 0 TAHUN</h2>
+                                <p><input type="file" accept="pdf" name="pengalaman" class="form-control"></p>
                             </div>
                             <div class="jenjang6-pengalaman">
-                                <h2>D1(SIPIL) MINIMAL 12 TAHUN</h2>
-                                <h2>D2(SIPIL) MINIMAL 8 TAHUN</h2>
-                                <h2>D3(SIPIL) MINIMAL 4 TAHUN</h2>
-                                <h2>S1 UMUM MINIMAL 1 TAHUN</h2>
-                                <h2>S1(SIPIL)/S1 TERAPAN/D4 TERAPAN MINIMAL 0 TAHUN</h2>
-                                <p><input type="file" accept="pdf" name="pengalaman"></p>
+                                <h2 class="fs-6">D1(SIPIL) MINIMAL 12 TAHUN</h2>
+                                <h2 class="fs-6">D2(SIPIL) MINIMAL 8 TAHUN</h2>
+                                <h2 class="fs-6">D3(SIPIL) MINIMAL 4 TAHUN</h2>
+                                <h2 class="fs-6">S1 UMUM MINIMAL 1 TAHUN</h2>
+                                <h2 class="fs-6">S1(SIPIL)/S1 TERAPAN/D4 TERAPAN MINIMAL 0 TAHUN</h2>
+                                <p><input type="file" accept="pdf" name="pengalaman" class="form-control"></p>
                             </div>
                             <div class="referensi-kerja">
-                                <h2>Referensi Kerja :</h2>
-                                <p>Menggunakan format PDF</p>
-                                <p><input type="file" accept="pdf" name="referensi-kerja"></p>
+                                <label for="referensi-kerja">Referensi Kerja :</label>
+                                <p class="fs-6">Menggunakan format PDF</p>
+                                <p><input type="file" accept="pdf" name="referensi-kerja" id="referensi-kerja" class="form-control"></p>
                             </div>
                             <div class="ktp">
-                                <h2>KTP :</h2>
-                                <p>Menggunakan format PDF, PNG, & JPG</p>
-                                <p><input type="file" accept="pdf,png,jpg" name="ktp"></p>
+                                <label for="ktp">KTP :</label>
+                                <p class="fs-6">Menggunakan format PDF, PNG, & JPG</p>
+                                <p><input type="file" accept="pdf,png,jpg" name="ktp" id="ktp" class="form-control"></p>
                             </div>
                             <div class="npwp">
-                                <h2>NPWP :</h2>
-                                <p>Menggunakan format PDF, PNG, & JPG</p>
-                                <p><input type="file" accept="pdf,png,jpg" name="npwp"></p>
+                                <label for="npwp">NPWP :</label>
+                                <p class="fs-6">Menggunakan format PDF, PNG, & JPG</p>
+                                <p><input type="file" accept="pdf,png,jpg" name="npwp" id="npwp" class="form-control"></p>
                             </div>
                             <div class="pasphoto">
-                                <h2>Pasphoto latar <span>merah</span> berukuran <span>3x4 = 354 X 472 PX</span></h2>
-                                <p>Menggunakan format PNG & JPG</p>
-                                <p><input type="file" accept="png,jpg" name="pasphoto"></p>
+                                <label for="pasphoto">Pasphoto latar <span>merah</span> berukuran <span>3x4 = 354 X 472 PX</span></label>
+                                <p class="fs-6">Menggunakan format PNG & JPG</p>
+                                <p><input type="file" accept="png,jpg" name="pasphoto" id="pasphoto" class="form-control"></p>
                             </div>
                             <div class="account">
                                 <label for="email">Email :</label>
-                                <input type="email" name="email" id="email"> </br>
+                                <input type="email" name="email" id="email" placeholder="Masukkan Email" class="form-control">
                                 <label for="password">Password :</label>
-                                <input type="password" name="password" id="password">
+                                <input type="password" name="password" id="password" placeholder="Masukkan Password" class="form-control">
                             </div>
                             <div class="nohp">
                                 <label for="nohp">No HP/WA(AKTIF) :</label>
-                                <input type="number" name="nohp" id="nohp">
+                                <input type="number" name="nohp" id="nohp" placeholder="Masukkan No HP/WA" class="form-control">
                             </div>
                     </div>
                     <div>
-                        <input type="submit" name="submit" value="Kirim">
+                        <input type="submit" name="submit" value="Kirim" class="btn btn-primary">
                     </div>
                 </form>
             </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
