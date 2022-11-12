@@ -10,38 +10,39 @@
 </head>
 <header id="header">
     <h1>ASIKMANIS</h1>
-      <span class="fa fa-bars fa-xl"></span>
     </button>
     <nav class="nav" id="navbar">
-      <ul>
+    <ul>
         <li>
-          <a href="" class="btn btn-light active"> Home</a>
+            <a href="" class="btn"> Home</a>
         </li>
         <li>
-          <a href="" class="btn login"> Login</a>
+            <a href="" class="btn login"> Login</a>
         </li>
-      </ul>
+    </ul>
     </nav>
-  </header>
+</header>
 <body class="bg-light">
     <div class="main container">
         <div class="register">
             <h1 class="fs-1">PENDAFTARAN ASIK MANIS</h1>
-            <p class="fs-6">APLIKASI SERTIFIKASI KONSTRUKSI MANIS</p>
+            <p class="fs-6">(APLIKASI SERTIFIKASI KONSTRUKSI MANIS)</p>
             <div class="register-box">
                 <form action="" method="post">
+                    <h2 class="register-text">Informasi Pribadi</h2>
                     <div class="jabatan">
-                        <label for="jabatan-kerja">Jabatan Kerja :</label>
+                        <label for="jabatan-kerja">Jabatan Kerja </label>
                         <input type="text" name="jabatan-kerja" id="jabatan-kerja" placeholder="Masukkan Jabatan Kerja" class="form-control">
                     </div>
                     <div class="nama">
-                        <label for="nama">Nama :</label>
+                        <label for="nama">Nama </label>
                         <input type="text" name="nama" id="nama" placeholder="Masukkan Nama" class="form-control">
                     </div>
                     <div class="alamat">
-                        <label for="alamat">Alamat & Kode Pos :</label>
+                        <label for="alamat">Alamat & Kode Pos </label>
                         <input type="text" name="alamat" id="alamat" placeholder="Masukkan Alamat" class="form-control">
-                    </div>
+                    </div> </br>
+                    <h2 class="register-text-b">Informasi Jenjang, Pendidikan, & Pengalaman</h2>
                     <div class="jenjang">
                         <label for="">Jenjang :</label>
                         <p><input type="radio" name="jenjang" value="jenjang4">Jenjang 4</p>
@@ -50,7 +51,7 @@
                     </div>
                     <div>
                         <label for="">Pendidikan :</label>
-                        <div class="jenjang4">
+                        <div class="pendidikan">
                             <p><input type="radio" name="jenjang4" value="sma" class="form-check-input">SMA</p>
                             <p><input type="radio" name="jenjang4" value="smk" class="form-check-input">SMK</p>
                             <p><input type="radio" name="jenjang4" value="d1-smkplus" class="form-check-input">D1 / SMK PLUS</p>
@@ -98,7 +99,8 @@
                                 <h2 class="fs-6">S1 UMUM MINIMAL 1 TAHUN</h2>
                                 <h2 class="fs-6">S1(SIPIL)/S1 TERAPAN/D4 TERAPAN MINIMAL 0 TAHUN</h2>
                                 <p><input type="file" accept="pdf" name="pengalaman" class="form-control"></p>
-                            </div>
+                            </div> </br>
+                            <h2 class="register-text-c">Upload Referensi Kerja, KTP, NPWP, & PasPhoto</h2>
                             <div class="referensi-kerja">
                                 <label for="referensi-kerja">Referensi Kerja :</label>
                                 <p class="fs-6">Menggunakan format PDF</p>
@@ -115,22 +117,23 @@
                                 <p><input type="file" accept="pdf,png,jpg" name="npwp" id="npwp" class="form-control"></p>
                             </div>
                             <div class="pasphoto">
-                                <label for="pasphoto">Pasphoto latar <span>merah</span> berukuran <span>3x4 = 354 X 472 PX</span></label>
+                                <label for="pasphoto">PasPhoto latar <span>merah</span> berukuran <span>3x4 = 354 X 472 PX</span></label>
                                 <p class="fs-6">Menggunakan format PNG & JPG</p>
                                 <p><input type="file" accept="png,jpg" name="pasphoto" id="pasphoto" class="form-control"></p>
                             </div>
+                            <h2 class="register-text-d">Informasi Email, Password, & No HP/WA</h2>
                             <div class="account">
-                                <label for="email">Email :</label>
+                                <label for="email">Email </label>
                                 <input type="email" name="email" id="email" placeholder="Masukkan Email" class="form-control">
-                                <label for="password">Password :</label>
+                                <label for="password">Password </label>
                                 <input type="password" name="password" id="password" placeholder="Masukkan Password" class="form-control">
                             </div>
                             <div class="nohp">
-                                <label for="nohp">No HP/WA(AKTIF) :</label>
+                                <label for="nohp">No HP/WA(AKTIF) </label>
                                 <input type="number" name="nohp" id="nohp" placeholder="Masukkan No HP/WA" class="form-control">
                             </div>
                     </div>
-                    <div>
+                    <div class="submit">
                         <input type="submit" name="submit" value="Kirim" class="btn btn-primary">
                     </div>
                 </form>

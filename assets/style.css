@@ -1,6 +1,18 @@
 html, body {
     padding: 0;
     margin: 0;
+    /* background-image: url("../assets/images/bg.jpg"); */
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+span {
+    color: rgb(170, 31, 31);
 }
 
 /* header */
@@ -11,57 +23,55 @@ html, body {
     padding: 2px 100px;
     position: sticky;
     top: 0;
-    background-color: #212529;
+    background-color: #2282e2;
     z-index: 100;
     color: #efefef;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-  }
-  
-  #header h1 {
+}
+
+#header h1 {
     color: #ffffff;
     font-weight: bold;
     cursor: pointer;
     font-size: 20px;
-  }
-  
-  #header h1:hover {
+}
+
+#header h1:hover {
     color: #ffffff;
     font-style: italic;
-  }
-  
-  #header ul {
+}
+
+#header ul {
     list-style-type: none;
-  }
-  
-  #header li {
+}
+
+#header li {
     display: inline;
     font-weight: bold;
-  }
+}
 
-  #header .login {
+#header .login {
     color:#efefef;
     font-weight: bold;
     border: 1px solid #efefef;
-  }
+}
 
-  #header .login:hover {
-    color:#212529;
+#header .login:hover {
+    color:#2282e2;
     background: #efefef;
     font-weight: bold;
-  }
+}
 
-  #header a {
+#header a {
     margin-top: 10px;
-  }
-
-/* footer */
-footer {
-    background: #212529;
-    color: #efefef;
-    padding: 10px;
 }
 
 /* bagian class */
+.btn {
+    color: #efefef;
+    font-weight: bold;
+}
+
 .register {
     
 }
@@ -78,16 +88,92 @@ footer {
 .register {
     background: #efefef;
     padding: 10px;
-}
-
-label {
-    margin-top: 10px;
-    margin-bottom: 8px;
-    font-size: 18px;
-    font-weight: bold;
+    box-shadow: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
 }
 
 .fs-5 {
     margin-top: 10px;
 }
 
+.jenjang p {
+    padding-top: 8px;
+}
+
+.pendidikan p {
+    padding-top: 8px;
+}
+
+.register-text {
+    background: #dedede;
+    margin: 0;
+    padding: 0 41%;
+    font-size: 25px;
+}
+
+.alamat input {
+    padding: 0 0 50px 0;
+}
+
+.register-text-b {
+    background: #dedede;
+    margin: 0;
+    padding: 0 26%;
+    font-size: 25px;
+}
+
+.register-text-c {
+    background: #dedede;
+    margin: 0;
+    padding: 0 25%;
+    font-size: 25px;
+}
+
+.register-text-d {
+    background: #dedede;
+    margin: 0;
+    padding: 0 29%;
+    font-size: 25px;
+}
+
+.jabatan {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 20%;
+}
+
+.nama {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 20%;
+}
+
+.alamat {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 20%;
+    padding-top: 10px;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 20%;
+    padding-top: 10px;
+}
+
+.nohp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 20%;
+    padding-top: 10px;
+}
+
+.submit {
+    margin-top: 5%;
+    margin-left: 50%;
+}
