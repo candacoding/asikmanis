@@ -14,19 +14,19 @@
             <p>APLIKASI SERTIFIKASI KONSTRUKSI MANIS</p>
             <div class="register-box">
                 <form action="" method="post">
-                    <div>
+                    <div class="jabatan">
                         <label for="jabatan-kerja">Jabatan Kerja :</label>
                         <input type="text" name="jabatan-kerja" id="jabatan-kerja">
                     </div>
-                    <div>
+                    <div class="nama">
                         <label for="nama">Nama :</label>
                         <input type="text" name="nama" id="nama">
                     </div>
-                    <div>
+                    <div class="alamat">
                         <label for="alamat">Alamat & Kode Pos :</label>
                         <input type="text" name="alamat" id="alamat">
                     </div>
-                    <div>
+                    <div class="jenjang">
                         <h1>Jenjang :</h1>
                         <p><input type="radio" name="jenjang4" value="jenjang4">Jenjang 4</p>
                         <p><input type="radio" name="jenjang5" value="jenjang4">Jenjang 5</p>
@@ -84,18 +84,24 @@
                                 <p><input type="file" accept="pdf" name="pengalaman"></p>
                             </div>
                             <div class="referensi-kerja">
+                                <h2>Referensi Kerja :</h2>
+                                <p>Menggunakan format PDF</p>
                                 <p><input type="file" accept="pdf" name="referensi-kerja"></p>
                             </div>
                             <div class="ktp">
-                                <h2>Menggunakan format PDF, PNG, & JPG</h2>
+                                <h2>KTP :</h2>
+                                <p>Menggunakan format PDF, PNG, & JPG</p>
                                 <p><input type="file" accept="pdf,png,jpg" name="ktp"></p>
                             </div>
                             <div class="npwp">
-                                <h2>Menggunakan format PDF, PNG, & JPG</h2>
+                                <h2>NPWP :</h2>
+                                <p>Menggunakan format PDF, PNG, & JPG</p>
                                 <p><input type="file" accept="pdf,png,jpg" name="npwp"></p>
                             </div>
                             <div class="pasphoto">
                                 <h2>Pasphoto latar <span>merah</span> berukuran <span>3x4 = 354 X 472 PX</span></h2>
+                                <p>Menggunakan format PNG & JPG</p>
+                                <p><input type="file" accept="png,jpg" name="pasphoto"></p>
                             </div>
                             <div class="account">
                                 <label for="email">Email :</label>
@@ -103,9 +109,13 @@
                                 <label for="password">Password :</label>
                                 <input type="password" name="password" id="password">
                             </div>
+                            <div class="nohp">
+                                <label for="nohp">No HP/WA(AKTIF) :</label>
+                                <input type="number" name="nohp" id="nohp">
+                            </div>
                     </div>
                     <div>
-                        <input type="submit" name="submit" value="send">
+                        <input type="submit" name="submit" value="Kirim">
                     </div>
                 </form>
             </div>
