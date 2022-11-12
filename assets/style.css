@@ -67,13 +67,14 @@ span {
 }
 
 /* bagian class */
+
+.title {
+    padding:0 45% ;
+}
+
 .btn {
     color: #efefef;
     font-weight: bold;
-}
-
-.register {
-    
 }
 
 .btn-primary {
@@ -176,4 +177,20 @@ span {
 .submit {
     margin-top: 5%;
     margin-left: 50%;
+}
+
+.container {
+}
+
+.box-size {
+    margin-top: 10%;
+    padding: 5%;
+    background: #efefef;
+    border-radius: 20px;
+    box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+h2 a {
+    color: black;
+    text-decoration: none;
 }
