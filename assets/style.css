@@ -122,6 +122,13 @@ span {
     font-size: 25px;
 }
 
+.register-text-b2 {
+    background: #dedede;
+    margin: 0;
+    padding: 0 34%;
+    font-size: 25px;
+}
+
 .register-text-c {
     background: #dedede;
     margin: 0;
@@ -179,9 +186,6 @@ span {
     margin-left: 50%;
 }
 
-.container {
-}
-
 .box-size {
     margin-top: 10%;
     padding: 5%;
@@ -193,4 +197,15 @@ span {
 h2 a {
     color: black;
     text-decoration: none;
+}
+
+.menambah {
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 0 38%;
+}
+
+.menambah-a {
+    font-size: 20px;
 }
